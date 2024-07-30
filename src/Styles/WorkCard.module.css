@@ -1,0 +1,64 @@
+.projectHeading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+   
+}
+.btn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: yellow;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn-light{
+    background: transparent;
+    color: white;
+}
+.btn:hover{
+    background: grey;
+    color: white;
+    transition: 0.3s;
+}
+.projectContainer{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+.projectCard{
+    background: black;
+    padding: 1.2rem 1rem;
+}
+
+
+.projectCard img{
+width: 100%;
+}
+.proDetails p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.proBtns{
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem 0 ;
+}
+.proBtns .btn{
+    padding: 0.5rem 1rem;
+}
+@media screen and (max-width:740px) {
+    
+    .projectContainer{
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+    }
+}
