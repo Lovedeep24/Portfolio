@@ -1,6 +1,6 @@
 .heroImg{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     height: 60vh;
     position: relative;
 }
@@ -16,13 +16,15 @@
  content: "";
  background: url(../assets/project.jpg);
  background-size: cover;
- background-position: center top;
+ background-position: center;
  height: 100%;
  width: 100%;
  position: absolute;
  top: 0;
  left: 0;
  z-index: -1;
+ object-fit: cover;
+ display: block;
 }
 .heroImg::after{
     content: "";
@@ -36,6 +38,8 @@
 }
 .heroImg h1{
     font-size: 2.4rem;
+    /* font-weight: 400; */
+    color: white;
 }
 .heroImg p{
     font-size: 1.4rem;

@@ -13,7 +13,7 @@ const Footer = () => {
           
           <div>
             <p>253 sector-18</p>
-            <p>Kaitha,Haryana</p>
+            <p>Kaithal,Haryana</p>
             <p>India</p>
           </div>
           </div>
@@ -27,9 +27,9 @@ const Footer = () => {
         <div className={styles.right}>
           <h4>Social Media Handles</h4>
           <div className={styles.social}>
-          <FaInstagram size={30} style={{color:"#fff",marginRight:"1rem"}}/>lovedeep24253@gmail.com
-          <FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/>lovedeep24253@gmail.com
-          <FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}}/>lovedeep24253@gmail.com
+          <a href='https://www.instagram.com/'><FaInstagram size={30} style={{color:"#fff",marginRight:"1rem"}} /></a>
+          <a href=''><FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
+          <a href='www.linkedin.com/in/lovedeep024'><FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
           </div>
           </div>
           </div>

@@ -26,13 +26,13 @@ const Navbar = () => {
       
       <ul className={click ? `${styles.links} ${styles.active}` : styles.links}>
         <li>
-            <Link to="Projects">Projects</Link>
+            <Link to="/Projects">Projects</Link>
         </li>
         <li>
-            <Link to="Contact">Contact</Link>
+            <Link to="/Contact">Contact</Link>
         </li>
         <li>
-            <Link to="About">About</Link>
+            <Link to="/About">About</Link>
         </li>
   
         </ul>
